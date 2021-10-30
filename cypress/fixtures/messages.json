@@ -1,0 +1,5 @@
+{
+    "invalidLoginMessage": "We didn't recognize that email and/or password. Need help?",
+    "failedOrganizationLoginMessage": "This account can't log in with an organization yet. Please log in using your email and password.",
+    "failedResetMessage": "That email address doesn't exist in Hudl. Check with your coach to ensure they have the right email address for you."
+  }
