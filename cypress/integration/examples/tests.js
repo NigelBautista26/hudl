@@ -50,9 +50,10 @@ describe("Test The Application", () => {
     /**  This test scenario was commented out because i couldnt interact with the dropdown menu,
          despite being able to verify that the selector exist, 
          I think something is wrong with cypress or the selector has the issue, 
-         im still investigating this. its most likely a Cypress isssue.
+         normally dropdown elements either have a select tag or a list tag,
+         but this one has neither, im still investigating this.
     **/ 
-    // it("Logout...", () => {
+    // it.only("Logout...", () => {
     //     loginPage.login()
     //     homePage.logout()
     // })
