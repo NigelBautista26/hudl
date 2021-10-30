@@ -1,6 +1,5 @@
 import user from "../fixtures/user.json"
 import url from "../fixtures/url.json"
-
 class LoginPage {
 
     emailField () { return cy.get('#email') }

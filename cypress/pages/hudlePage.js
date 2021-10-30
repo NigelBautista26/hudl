@@ -1,5 +1,4 @@
 import url from "../fixtures/url.json"
-
 class HudlePage {
 
     loginButton () { return cy.get('body > div.outer > header > div > a.mainnav__btn.mainnav__btn--primary') }

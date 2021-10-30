@@ -1,5 +1,4 @@
 import url from "../fixtures/url.json"
-
 class HomePage {
 
     emailField () { return cy.get('#email') }
