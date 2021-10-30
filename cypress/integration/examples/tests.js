@@ -49,8 +49,8 @@ describe("Test The Application", () => {
 
     /**  This test scenario was commented out because i couldnt interact with the dropdown menu,
          despite being able to verify that the selector exist, 
-         I think something is either wrong with the selector or cypress has the issue, 
-         im still investigating this
+         I think something is wrong with cypress or the selector has the issue, 
+         im still investigating this. its most likely a Cypress isssue.
     **/ 
     // it("Logout...", () => {
     //     loginPage.login()
