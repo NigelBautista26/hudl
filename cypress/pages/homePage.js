@@ -9,7 +9,7 @@ class HomePage {
     
     logout () {
         cy.url().should("eq", url.homePage)
-       this.accountDropDownTab().click()
+        this.accountDropDownTab().click()
     }
     
 }
