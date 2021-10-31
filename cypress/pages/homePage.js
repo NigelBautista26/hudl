@@ -5,7 +5,7 @@ class HomePage {
     passwordField () { return cy.get('#password') }
     loginButton () { return cy.get('#logIn') }
     logoutButton () { return cy.get('.hui-globaladditionalitems > .hui-globalusermenu__item') }
-    accountDropDownTab () { return cy.get('.hui-globalusermenu > .hui-globaluseritem > .hui-globaluseritem__display-name > .uni-icon') }
+    accountDropDownTab () { return cy.get('.hui-globalusermenu') }
     qaHireProjectTab () { return cy.get('#ssr-webnav > div > div.hui-webnav__grid.hui-navcontainer > nav.hui-webnav__grid-col--onewhole.hui-primarynav.uni-environment--dark.uni-env--dark > div.hui-primaryteamswitcher > a') }
     
     logout () {
