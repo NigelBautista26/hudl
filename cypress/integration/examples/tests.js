@@ -51,7 +51,7 @@ describe("Test The Application", () => {
          despite being able to verify that the selector exist, 
          I think something is wrong with cypress or the selector has the issue, 
          normally dropdown elements either have a select tag or a list tag,
-         but this one has neither, im still investigating this.
+         but this one has neither, but im still investigating this...
     **/ 
     // it.only("Logout...", () => {
     //     loginPage.login()
