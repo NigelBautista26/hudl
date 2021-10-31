@@ -47,16 +47,10 @@ describe("Test The Application", () => {
         loginPage.failedResetMessage().should('contain.text', messages.failedResetMessage)
     })
 
-    /**  This test scenario was commented out because i couldnt interact with the dropdown menu,
-         despite being able to verify that the selector exist, 
-         I think something is wrong with cypress or the selector has the issue, 
-         normally dropdown elements either have a select tag or a list tag,
-         but this one has neither, but im still investigating this...
-    **/ 
-    // it.only("Logout...", () => {
-    //     loginPage.login()
-    //     homePage.logout()
-    // })
+    it("Logout...", () => {
+        loginPage.login()
+        homePage.logout()
+    })
 
     
 
