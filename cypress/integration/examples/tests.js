@@ -48,8 +48,8 @@ describe("Test The Application", () => {
     })
 
     it("Logout...", () => {
-        loginPage.login()
         homePage.logout()
+        hudlePage.loginButton().should('is.visible')
     })
 
     

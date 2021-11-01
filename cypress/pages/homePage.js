@@ -1,4 +1,5 @@
 import url from "../fixtures/url.json"
+import loginPage from "./loginPage"
 class HomePage {
 
     emailField () { return cy.get('#email') }
@@ -9,6 +10,7 @@ class HomePage {
     qaHireProjectTab () { return cy.get('#ssr-webnav > div > div.hui-webnav__grid.hui-navcontainer > nav.hui-webnav__grid-col--onewhole.hui-primarynav.uni-environment--dark.uni-env--dark > div.hui-primaryteamswitcher > a') }
     
     logout () {
+        loginPage.login()
         cy.url().should("eq", url.homePage)
         this.accountDropDownTab().realHover('mouse')
         this.logoutButton().realClick()
