@@ -52,6 +52,4 @@ describe("Test The Application", () => {
         hudlePage.loginButton().should('is.visible')
     })
 
-    
-
 })
